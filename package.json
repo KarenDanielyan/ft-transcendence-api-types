@@ -2,7 +2,6 @@
 	"name": "@KarenDanielyan/ft-transcendence-api-types",
 	"version": "1.1.0",
 	"description": "Shared TS interfaces for ft_transcendence REST payloads",
-	"private": true,
 	"type": "commonjs",
 	"types": "dist/index.d.ts",
 	"main": "dist/index.js",
