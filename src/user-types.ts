@@ -8,9 +8,10 @@ import { ApiError } from "./common-types";
 
 /* Request Bodies */
 
+// Password is optional for OAuth users
 export interface CreateUserRequest {
 	email:			string;
-	password:		string;
+	password?:		string;
 	username:		string;
 	authProvider?:	string; // e.g. "google", "github"
 	providerSub?:	string; // e.g. "1234567890" for Google
