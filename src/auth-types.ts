@@ -24,7 +24,7 @@ export interface TokenPair {
 export interface LoginSuccess extends TokenPair {}
 
 export interface Login2FARequired {
-	requires2fa: true;
+	requires2fa: boolean;
 	loginTicket: string;
 }
 
