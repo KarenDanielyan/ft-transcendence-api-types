@@ -55,7 +55,7 @@ export interface UserView {
 	wins:			number;
 	losses:			number;
 	online:			boolean;
-	twofaenabled:	boolean;
+	twofaEnabled:	boolean;
 }
 
 export interface CreateUserResponse {
